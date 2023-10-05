@@ -1,5 +1,5 @@
 import { Injectable } from '@nestjs/common';
-import { MessagingService as TFSMessagingService, IApiMessagingResponse } from '@thefirstspine/messaging';
+import { MessagingService as TFSMessagingService, IMessagingResponse } from '@thefirstspine/messaging';
 
 /**
  * Nest service to interact with thr TFS messaging net service.
@@ -22,7 +22,7 @@ export class MessagingService {
    * @param subject The subject concerned by the message.
    * @param message The message to send.
    */
-  async sendMessage(to: number[]|'*', subject: string|'*', message: any): Promise<IApiMessagingResponse> {
+  async sendMessage(to: number[]|'*', subject: string|'*', message: any): Promise<IMessagingResponse> {
     return this.tfsMessagingService.sendMessage(to, subject, message);
   }
 
