@@ -1,6 +1,6 @@
 {
   "name": "@thefirstspine/messaging-nest",
-  "version": "0.0.1",
+  "version": "2.0.0",
   "description": "Built on top of @thefirstspine/messaging. Provides Nest services.",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
