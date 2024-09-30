@@ -1,25 +1,25 @@
 {
   "name": "@thefirstspine/messaging-nest",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "Built on top of @thefirstspine/messaging. Provides Nest services.",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
   "peerDependencies": {},
   "dependencies": {
-    "@nestjs/common": "^10.3.7",
-    "@thefirstspine/messaging": "2.0.2"
+    "@nestjs/common": "^10.4.4",
+    "@thefirstspine/messaging": "2.0.3"
   },
   "devDependencies": {
-    "@types/jest": "^29.5.12",
-    "@types/node": "^20.12.6",
+    "@types/jest": "^29.5.13",
+    "@types/node": "^22.7.4",
     "@typescript-eslint/eslint-plugin": "^7.6.0",
     "@typescript-eslint/parser": "^7.6.0",
     "eslint": "^8.56.0",
     "jest": "^29.7.0",
-    "rimraf": "^5.0.5",
-    "ts-jest": "^29.1.2",
+    "rimraf": "^6.0.1",
+    "ts-jest": "^29.2.5",
     "ts-node": "^10.9.2",
-    "typescript": "^5.4.4"
+    "typescript": "^5.6.2"
   },
   "scripts": {
     "build": "rimraf ./lib && tsc -b",
