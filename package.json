@@ -1,13 +1,13 @@
 {
   "name": "@thefirstspine/messaging-nest",
-  "version": "2.0.4",
+  "version": "2.0.5",
   "description": "Built on top of @thefirstspine/messaging. Provides Nest services.",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
   "peerDependencies": {},
   "dependencies": {
     "@nestjs/common": "^10.4.15",
-    "@thefirstspine/messaging": "2.0.4"
+    "@thefirstspine/messaging": "2.0.5"
   },
   "devDependencies": {
     "@types/jest": "^29.5.14",
