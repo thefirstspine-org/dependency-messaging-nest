@@ -22,7 +22,7 @@ export class MessagingService {
    * @param subject The subject concerned by the message.
    * @param message The message to send.
    */
-  async sendMessage(to: number[]|'*', subject: string|'*', message: any): Promise<IMessagingResponse> {
+  async sendMessage(to: number[]|'*', subject: string|'*', message: any): Promise<IMessagingResponse | null> {
     return this.tfsMessagingService.sendMessage(to, subject, message);
   }
 
